@@ -8,7 +8,7 @@ body {
 
 .header {
   height: 5rem;
-  background-color: lightgreen;
+ 
   grid-auto-flow: column;
   align-items: center;
   justify-content: space-between;
@@ -25,6 +25,10 @@ body {
 
 .header input[type="search"], button {
   border-radius: 100vh;
+  outline: 1px solid var(--clr3);
+}
+.header input[type="search"]:focus{
+  background-color: var(--clr2);
 }
 
 .select {
