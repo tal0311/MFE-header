@@ -12,7 +12,7 @@
   </head>
   <body app="MFE-Header" >
     <header class="header grid">
-      <input placeholder="Search anything" type="search" name="" id="" />
+      <input type="search"  placeholder="Search anything" onsearch="onSearchPosts(event)" />
 
       <div class="actions-container grid">
         <select name="events" id="" class="select">
@@ -24,7 +24,10 @@
           <option value="oldest">Oldest</option>
         </select>
         <!-- New post -->
-        <button onclick="openModal()">Post</button>
+        <button class="post-btn grid grid-dir-col" onclick="openModal()">
+        <img src="assets/icons/edit.svg" alt="">
+        <span>Post</span>
+        </button>
        
       </div>
     </header>

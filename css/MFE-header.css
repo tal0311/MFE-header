@@ -40,3 +40,16 @@ body {
   gap: 0.5rem;
   justify-content: space-between;
 }
+
+.post-btn{
+  background-color: var(--clr12);
+  color: var(--clr1);
+  padding: 0.5rem 1rem;
+  border: none;
+  gap: 0.5rem;
+  align-items: center;
+  /* border-radius: 8px; */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}  
